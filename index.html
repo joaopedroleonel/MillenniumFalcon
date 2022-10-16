@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Millennium Falcon</title>
+	<link rel="icon" type="" href="./Imagens/icone.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body style="background-color: #0c0c0c;">
+
+	<section class="menu">
+		<img class="menu-cards" onclick="menu();" id="menu" src="./Imagens/card-menu.png" alt="menu">
+			<div id="cards">
+				<img class="menu-cards" onclick="Millennium(); menuX()" src="./Imagens/card-mil.png" alt="ir para Millenium Falcon">
+				<img class="menu-cards" onclick="Lando(); menuX()" src="./Imagens/card-lando.png" alt="Lando">
+				<img class="menu-cards" onclick="Han(); menuX()" src="./Imagens/card-Han.png" alt="Han Solo">
+				<img class="menu-cards" onclick="menuX();" src="./Imagens/card-x.png" alt="Fechar">
+			</div>
+	</section>
+	
+	<img src="./Imagens/Banner2.png" class="d-block w-100 banner" alt="Millennium Flacon">
+
+	<div class="Millennium justify-content-center d-flex" id="Millennium" data-anima="up">
+		<img class="Imagen-Millennium" src="./Imagens/Millenium falcon.png" alt>
+		<h1 class="Texto-Millennium">A <strong class="bold">Millennium Falcon</strong> foi uma cargueiro leve<br>
+		corelliana YT-1300 usada pelos contrabandistas<br>
+		Han Solo e Chewbacca durante a Guerra Civil<br>
+		Galáctica. Foi posse anteriormente de Lando<br>
+		Calrissian, quem a perdeu para Soloem um<br>
+		jogo de Sabacc</h1>
+	</div>
+
+	<div class="Millennium justify-content-center d-flex" id="Lando" data-anima="up">
+		<img class="Imagen-Lando" src="./Imagens/Lando.png" alt>
+		<p class="Texto-Lando">Durante o tempo do Falcão na posse do<br>
+		<strong class="bold">contrabandista Lando Calrissian</strong>, ele acumulou<br>
+		inúmeras modificações em nome da conveniência<br>
+		eluxo,incluindo painéis exteriores pintados e uma<br>
+		grande cápsula de fuga.<br>
+	</div>
+
+	<div class="Millennium justify-content-center d-flex" id="Han" data-anima="up">
+		<img class="Imagen-Han" src="./Imagens/Han solo.png" alt>
+		<p class="Texto-Han">No entanto, durante a famosa Kessel Run<br>
+		de <strong class="bold">Han Solo</strong>, na qual ele pilotou o cargueiro<br>
+		pela primeira vez, muitas dessas adições foram<br>
+		destruídas ou perdidas, deixando o navio agredido.</p>
+	</div>
+
+	<div class="Millennium justify-content-center d-flex" data-anima="up">
+		<p class="Texto-Final"><strong class="bold">Sua aparência envelhecida</strong> ainda desmentia inúmeras<br class="espaco-final"> 
+		modificações avançadas para aumentar a velocidade,<br class="espaco-final"> 
+		armas e escudos da nave, incluindo um motor de hiperdrive<br class="espaco-final">
+		entre os mais rápidos de toda a galáxia, permitindo que ele<br class="espaco-final">
+		 ultrapassasse os Destruidores de Estrelas Imperiais.<br class="espaco-final"> 
+		Também incluía compartimentos de contrabando<br class="espaco-final">
+		à prova de sensores.</p>
+	</div>
+
+	<div class="justify-content-center d-flex"><img src="./Imagens/Logo.png" style="max-width: 150px; margin: 20px;"></div>
+	
+	<script type="" src="main.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
